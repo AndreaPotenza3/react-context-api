@@ -6,7 +6,7 @@ export default function PostCard({ item }) {
 
     const { title, id, image } = item
 
-    const { base_api, newPosts } = useContext(GlobalContext)
+    const { base_api } = useContext(GlobalContext)
     return (
         <>
             <h3>{title}</h3>

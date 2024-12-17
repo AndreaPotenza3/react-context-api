@@ -3,7 +3,7 @@ import PostCard from "./PostCard";
 import GlobalContext from "../context/context";
 
 
-export default function PostList({ items = [] }) {
+export default function PostList() {
 
     const { newPosts } = useContext(GlobalContext)
 
