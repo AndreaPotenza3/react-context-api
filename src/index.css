@@ -1,0 +1,65 @@
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+img {
+  width: 350px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.det-card {
+  display: flex;
+  gap: 10px;
+}
+
+.title {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+}
+
+.sub-title {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.about-description {
+  margin-top: 1rem;
+  text-align: center;
+  padding: 0 10rem;
+}
+
+.char-list {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  margin-top: 2rem;
+  gap: 1rem;
+
+}
+
+.tail {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 50px;
+  margin-top: 100px;
+}
